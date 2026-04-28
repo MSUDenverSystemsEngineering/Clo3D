@@ -95,14 +95,14 @@ $adtSession = @{
     # App variables.
     AppVendor = 'CLO Virtual Fashion'
     AppName = 'Clo3D'
-    AppVersion = '2025.0.148'
+    AppVersion = '2026.0.202'
     AppArch = 'x64'
     AppLang = 'en-US'
     AppRevision = ''
     AppSuccessExitCodes = @(0)
     AppRebootExitCodes = @(1641, 3010)
     AppScriptVersion = '1.0.0'
-    AppScriptDate = '05/01/2025'
+    AppScriptDate = '04/28/2026'
     AppScriptAuthor = 'Will Jarvill'
 
     # Install Titles (Only set here to override defaults set by the toolkit).
@@ -152,7 +152,7 @@ function Install-ADTDeployment
     }
 
     ## <Perform Installation tasks here>
-    Start-ADTProcess -FilePath "CLO_Network_OnlineAuth_2025_0_148_Installer_x64.exe" -ArgumentList "/S /D=$envProgramFiles\CLO3D\"
+    Start-ADTProcess -FilePath "CLO_Network_OnlineAuth_2026_0_202_Installer_x64.exe" -ArgumentList "/S /D=$envProgramFiles\CLO3D\"
 
     ##================================================
     ## MARK: Post-Install
